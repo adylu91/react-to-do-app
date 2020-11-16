@@ -1,0 +1,15 @@
+.appWrapper {
+  box-sizing: content-box;
+  max-width: 800px;
+  min-height: 94vh;
+  margin: 3vh auto;
+}
+
+.section {
+  border-right: 8px solid black;
+  border-bottom: 8px solid black;
+  min-height: 20vh;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 3vh;
+}

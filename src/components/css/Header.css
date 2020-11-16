@@ -1,0 +1,18 @@
+.headerLogo {
+  text-align: center;
+  line-height: 15vh;
+  letter-spacing: 5px;
+  font-size: 10vh;
+  font-weight: bold;
+  padding-bottom: 10px;
+  user-select: none;
+}
+
+.headerLogo span:nth-child(1) {
+  text-shadow: 5px 5px 8px rgb(65, 32, 32);
+}
+
+.headerLogo span:nth-child(2) {
+  color: grey;
+  text-shadow: 5px 5px 8px rgb(65, 32, 32);
+}
