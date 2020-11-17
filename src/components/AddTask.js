@@ -8,7 +8,7 @@ const AddTask = (props) => {
   const taskText = props.taskText;
   return (
     <div className="addTask_Wrapper section">
-      <label for="addTask_Task">
+      <label htmlFor="addTask_Task">
         Data zadania:
         <input
           type="date"
@@ -21,14 +21,14 @@ const AddTask = (props) => {
         ></input>
       </label>
 
-      <label for="addTask_Priority">
+      <label htmlFor="addTask_Priority">
         Dodaj wysoki priorytet:
         <input
           type="checkbox"
           id="addTask_Priority"
           name="addTask_Priority"
           checked={priortiy}
-          onClick={handleAddTaskEvents}
+          onChange={handleAddTaskEvents}
         ></input>
       </label>
 
@@ -43,7 +43,7 @@ const AddTask = (props) => {
       </div>
 
       <div>
-        <label for="addTask_Text"> Treść zadania:</label>
+        <label htmlFor="addTask_Text"> Treść zadania:</label>
         <input
           type="text"
           name="addTask_Text"

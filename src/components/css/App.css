@@ -1,6 +1,7 @@
 .appWrapper {
   box-sizing: content-box;
   max-width: 800px;
+  min-width: 600px;
   min-height: 94vh;
   margin: 3vh auto;
 }
